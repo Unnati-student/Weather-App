@@ -37,7 +37,7 @@
           weatherIcon.src="images/mist.png";
         }
       }
-      document.querySelector(".search button").addEventListener("dblclick",()=>{
+      document.querySelector(".search button").addEventListener("click",()=>{
         checkWeather(document.querySelector(".search input").value);
 
       } )
